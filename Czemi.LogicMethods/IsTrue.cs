@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace Czemi.LogicMethods
 {
-    public static class Logic
+    public static partial class Logic
     {
         public static bool IsTrue(this int value) => value != 0;
 

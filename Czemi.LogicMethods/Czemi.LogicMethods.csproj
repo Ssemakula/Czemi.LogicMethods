@@ -11,7 +11,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>Logic IsTrue</PackageTags>
     <ApplicationIcon>Czemi_Maissan128.ico</ApplicationIcon>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <PackageReleaseNotes>Rewritten to remove the necessity of having separate versions for .NET Framework and .NET 8.0+</PackageReleaseNotes>
   </PropertyGroup>
 

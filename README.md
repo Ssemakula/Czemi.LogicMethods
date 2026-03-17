@@ -1,7 +1,11 @@
 ## LogicMethods ##
-	<type>.Istrue(<expression>)
+	<type>.Istrue([<expression>])
 	Returns true if expression is not 0 or empty
     For strings will return false if null or empty. Whitespace will return true
+
+	<numerictype>.IfZero([fallback = 1])
+	Return fallback if <numerictype> = 0
+	fallback defaults to 1
 
 
  # Other Things #
