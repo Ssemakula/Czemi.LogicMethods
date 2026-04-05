@@ -5,14 +5,16 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Ssemakula Mukiibi</Authors>
     <Company>Czemi</Company>
-    <Description>C style extension for true false logic</Description>
+    <Description>C style extension for true false logic, and Zero checking</Description>
     <Copyright>Copyright (c) 2025 Ssemakula Mukiibi</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>Logic IsTrue</PackageTags>
     <ApplicationIcon>Czemi_Maissan128.ico</ApplicationIcon>
-    <Version>1.2.1</Version>
-    <PackageReleaseNotes>Added support for nullable numeric types</PackageReleaseNotes>
+    <Version>1.2.2</Version>
+    <PackageReleaseNotes>Added support for nullable numeric types to IsTrue() and IfZero()</PackageReleaseNotes>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ssemakula/Czemi.LogicMethods</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
